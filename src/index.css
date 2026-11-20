@@ -1,18 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html { scroll-behavior: smooth; }
-  body { @apply font-poppins text-[#4a4a4a] bg-white antialiased; }
-  h1, h2, h3, h4 { @apply text-dark font-bold; }
-}
-
-@layer components {
-  .wrap { @apply mx-auto w-full max-w-[1140px] px-4; }
-  .btn-coral {
-    @apply inline-block rounded-full bg-coral px-6 py-3 text-sm font-semibold
-      uppercase text-white transition hover:bg-dark;
-  }
-  .eyebrow { @apply mb-2 text-sm font-semibold uppercase text-coral; }
+body {
+  font-family: "Poppins", sans-serif;
 }
